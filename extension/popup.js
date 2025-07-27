@@ -11,5 +11,5 @@ document.getElementById("pauseBtn").addEventListener("click", () => {
 });
 
 document.getElementById("stopBtn").addEventListener("click", () => {
-  sendMessage("stop");
+  sendMessage("end");
 });
